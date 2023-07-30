@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="43.792" height="40.533" viewBox="0 0 43.792 40.533">
+  <g id="Arrow" transform="translate(0 39.118) rotate(-90)">
+    <path id="Path_23" data-name="Path 23" d="M1,42.378H-1V0H1Z" transform="translate(18.821 0)" fill="#00224e"/>
+    <path id="Path_24" data-name="Path 24" d="M0,27.706a1,1,0,0,1-1-1V0A1,1,0,0,1,0-1,1,1,0,0,1,1,0V26.706A1,1,0,0,1,0,27.706Z" transform="translate(37.704 23.494) rotate(45)" fill="#00224e"/>
+    <path id="Path_25" data-name="Path 25" d="M0,27.706a1,1,0,0,1-1-1V0A1,1,0,0,1,0-1,1,1,0,0,1,1,0V26.706A1,1,0,0,1,0,27.706Z" transform="translate(18.884 42.378) rotate(135)" fill="#00224e"/>
+  </g>
+</svg>
