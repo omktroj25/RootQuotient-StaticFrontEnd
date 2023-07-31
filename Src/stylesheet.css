@@ -69,8 +69,6 @@ body {
 .hero-section{
     display: flex;
     background-image: url("./images/home_landing.webp");
-    width: 100vw;
-    height: 100vh;
     background-position: center;
     background-size: cover;
     align-items: center;
@@ -229,7 +227,7 @@ body {
     width: 120px;
     height: 120px;
     border-top-right-radius: 40px;
-    bottom: -675px;
+    bottom: -685px;
     left: 0;
 
     content: "";
@@ -293,19 +291,20 @@ body {
 
 .production-section{
     display: flex;
+    justify-content: center;
 }
 
 .production-section__main-content{
     display: flex;
     align-items: center;
     gap: 5rem;
-    margin: 0px 90px;
-    padding: 80px 112px 32px 70px;
+    margin: 0px 60px;
+    padding: 5rem 0rem 2rem 5rem;
 }
 
 .production-section__main-content__production-icon{
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3,.5fr);
     align-items: center;
     gap: 2rem;
 }
@@ -343,6 +342,7 @@ body {
     font-size: 1rem;
     font-weight: 400;
     margin-bottom: 2rem;
+    max-width: 550px;
 }
 
 .production-section__main-content__production-idea button{
@@ -359,7 +359,7 @@ body {
 /* Service section style */
 
 .service-section{
-    background-color: rgb(232,242,254);
+    background-color: rgb(237,245,255);
     clip-path: polygon(calc(100% - 187px) 0,100% 100px,100% 100%,0 100%,0 50px);
 }
 
@@ -430,6 +430,7 @@ body {
     font-weight: 400;
     line-height: 1.4rem;
     letter-spacing: .2px;
+    max-width: 27rem;
 }
 
 .service-section__main-content__description__icon{
@@ -507,6 +508,13 @@ body {
     border-bottom: 3px solid #004ca2;
 }
 
+.service-section__main-content__service-type--service__img{
+    position: absolute;
+    max-width: 100%;
+    top: 140rem;
+    left: 45rem;
+}
+
 .service-section__main-content__service-type__service__icon{
     height: 80px;
     width: 80px;
@@ -530,3 +538,45 @@ body {
     transform: rotate(90deg);
 }
 
+/* metric section style */
+
+.metrics-section{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(237,245,255);
+}
+
+.metrics-section__main-content{
+    padding: 5rem 7rem 5rem 15rem;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 3rem;
+}
+
+.metric-section__main-content__metric{
+    display: flex;
+    flex-direction: column;
+}
+
+.metric-section__main-content__metric__count{
+    display: flex;
+    font-family: Axiforma;
+    font-weight: 100;
+    color: #484848;
+    font-size: 2.75rem;
+    margin-left: 5px;
+}
+
+.metric-section__main-content__metric__count__value{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 3.3rem;
+    font-weight: bold;
+    color: #004ca2;
+    margin-bottom: 0.5rem;
+}
+
+.metric-section__main-content__metric__txt{
+    font-weight: 450;
+    min-width: 12rem;
+}
