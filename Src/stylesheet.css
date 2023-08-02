@@ -832,6 +832,7 @@ body {
     display: flex;
     width: 100vw;
     justify-content: center;
+    align-items: center;
     background-color: rgb(237,245,255);
 }
 
@@ -840,7 +841,7 @@ body {
     width: 100vw;
     flex-direction: column;
     margin: 0rem 4rem;
-    padding: 5rem 10rem;
+    padding: 4rem 10rem;
 }
 
 .technology-section__main-content__title{
@@ -889,21 +890,120 @@ body {
     flex-direction: column;
     gap: 1rem;
     justify-content: space-between;
+    align-items: center;
 }
 
 .technology-section__main-content__partners__list__img{
     height: 4rem;
-    width: 3rem;
+    width: 3.5rem;
 }
 
 .technology-section__main-content__partners__list__name{
     font-size: .7rem;
     text-align: center;
-    text-transform: uppercase;
-    cursor: pointer;
-    margin: 0;
     color: #6f6f6f;
     font-weight: 500;
     letter-spacing: 3.33px;
 }
 
+/* Staff augmentation section style */
+
+.staff-augmentation-section{
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(237,245,255);
+    clip-path: polygon(0 0, 100% 0, 100% 95%, 86% 100%, 0 95%);
+    overflow: clip;
+}
+
+.staff-augmentation-section::before{
+    width: 180px;
+    height: 125px;
+    border-top-right-radius: 40px;
+    top: 550rem;
+    right: 13px;
+
+    content: "";
+    background: linear-gradient(359deg,#e9f3ff,#9dceff);
+    position: absolute;
+    transform: rotate(305deg);
+}
+
+.staff-augmentation-section__main-content{
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10rem;
+    padding: 2rem 2rem 15rem;
+}
+
+.staff-augmentation-section__main-content__view{
+    display: flex;
+    gap: 4rem;
+}
+
+.staff-augmentation__main-content__view__img{
+    height: 39.43rem;
+    width: 56.25rem;
+}
+
+.staff-augmentation-section__main-content__view__meet-agile{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 2rem;
+    margin-bottom: 4rem;
+    align-items: flex-start;
+}
+
+.staff-augmentation-section__main-content__view__meet-agile__btn{
+    display: flex;
+    border: 10px solid lightblue;
+    align-items: center;
+    justify-content: center;
+    padding: .8rem .8rem;
+    background-color: rgb(0,76,160);
+    border-radius: 50%;
+}
+
+.staff-augmentation-section__main-content__view__meet-agile__txt{
+    font-size: .9rem;
+    font-weight: 500;
+    letter-spacing: .06px;
+    max-width: 10rem;
+}
+
+.staff-augmentation-section__main-content__context{
+    display: flex;
+    flex-direction: column;
+    padding: 0rem 0rem 0rem 15rem;
+}
+
+.staff-augmentation-section__main-content__context__title{
+    font-size: .7rem;
+    font-weight: 550;
+    letter-spacing: 2.5px;
+    color: #6f6f6f;
+    margin-bottom: 2rem;
+}
+
+.staff-augmentation-section__main-content__context__description{
+    font-size: 2.75rem;
+    font-weight: 500;
+    max-width: 60rem;
+    letter-spacing: -1.14px;
+    margin-bottom: 1.5rem;
+    color: #004ca2;
+}
+
+.staff-augmentation-section__main-content__context__contact-btn{
+    background: none;
+    border: 1.5px solid #004ca2;
+    color: #004ca2;
+    font-weight: 500;
+    height: 2.5rem;
+    width: 10rem;
+}
