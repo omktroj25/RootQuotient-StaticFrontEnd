@@ -596,7 +596,7 @@ body {
 
 .blog-card-section__main-content{
     display: flex;
-    width: 100vw;
+    max-width: 100vw;
     background-color: rgb(0,76,161);
 }
 
@@ -649,14 +649,14 @@ body {
 .portfolio-section{
     display: flex;
     justify-content: center;
-    width: 100vw; 
+    max-width: 100vw; 
 }
 
 .portfolio-section__main-content{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 100vw;
+    max-width: 100vw;
     background-color: rgb(237,245,255);
 }
 
@@ -830,7 +830,7 @@ body {
 
 .technology-section{
     display: flex;
-    width: 100vw;
+    max-width: 100vw;
     justify-content: center;
     align-items: center;
     background-color: rgb(237,245,255);
@@ -838,7 +838,7 @@ body {
 
 .technology-section__main-content{
     display: flex;
-    width: 100vw;
+    max-width: 100vw;
     flex-direction: column;
     margin: 0rem 4rem;
     padding: 4rem 10rem;
@@ -867,9 +867,9 @@ body {
     color: black;
     letter-spacing: .17px;
     margin-bottom: 2.5rem;
-    max-width: 65%;
-    font-weight: 300;
-    font-size: .9rem;
+    max-width: 60%;
+    font-weight: 425;
+    font-size: 1rem;
 }
 
 .technology-section__main-content__partners{
@@ -910,7 +910,7 @@ body {
 
 .staff-augmentation-section{
     display: flex;
-    width: 100vw;
+    max-width: 100vw;
     justify-content: center;
     align-items: center;
     background-color: rgb(237,245,255);
@@ -933,7 +933,7 @@ body {
 
 .staff-augmentation-section__main-content{
     display: flex;
-    width: 100vw;
+    max-width: 100vw;
     flex-direction: column;
     justify-content: space-between;
     gap: 10rem;
@@ -1006,4 +1006,61 @@ body {
     font-weight: 500;
     height: 2.5rem;
     width: 10rem;
+}
+
+/* achievements section style */
+
+.achievements-section{
+    display: flex;
+    max-width: 100vw;
+}
+
+.achievements-section__main-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 100vw;
+    padding: 0rem 11rem 6rem;
+    margin: 6rem 5rem 0rem 5rem;
+}
+
+.achievements-section__main-content__context{
+    display: flex;
+    justify-content: space-between;
+}
+
+.achievements-section__main-content__context__txt__title{
+    font-size: 2.75rem;
+    font-weight: 500;
+    max-width: 20rem;
+    letter-spacing: -1.14px;
+    margin-bottom: 1.5rem;
+    color: #004ca2;
+}
+
+.achievements-section__main-content__context__txt__description{
+    color: black;
+    letter-spacing: .17px;
+    margin-bottom: 4rem;
+    max-width: 65%;
+    font-weight: 425;
+    font-size: 1rem;
+}
+
+.achievements-section__main-content__context__icon{
+    height: 4.5rem;
+    width: 3.5rem;
+}
+
+.achievements-section__main-content__awards{
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.achievements-section__main-content__awards__img{
+    height: 15rem;
+    width: 15rem;
 }
