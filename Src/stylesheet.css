@@ -596,7 +596,7 @@ body {
 
 .blog-card-section__main-content{
     display: flex;
-    max-width: 100vw;
+    width: 100vw;
     background-color: rgb(0,76,161);
 }
 
@@ -1008,7 +1008,7 @@ body {
     width: 10rem;
 }
 
-/* achievements section style */
+/* Achievements section style */
 
 .achievements-section{
     display: flex;
@@ -1023,6 +1023,7 @@ body {
     max-width: 100vw;
     padding: 0rem 11rem 6rem;
     margin: 6rem 5rem 0rem 5rem;
+    background-color: white;
 }
 
 .achievements-section__main-content__context{
@@ -1063,4 +1064,108 @@ body {
 .achievements-section__main-content__awards__img{
     height: 15rem;
     width: 15rem;
+}
+
+/* Blogs section style */
+
+.blogs-section{
+    display: flex;
+    max-width: 100vw;
+}
+
+.blogs-section__main-content{
+    display: flex;
+    max-width: 100vw;
+    flex-direction: column;
+    padding: 0rem 0rem 10rem;
+    margin: 6rem 16rem 0rem 16rem;
+    border-bottom: 1px solid #c3bebe;
+}
+
+.blogs-section__main-content__title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.blogs-section__main-content__title__txt{
+    font-size: .7rem;
+    font-weight: 550;
+    letter-spacing: 2.5px;
+    color: #6f6f6f;
+    margin-bottom: 2rem;
+}
+
+.blogs-section__main-content__titel__btn{
+    background: none;
+    border: 1.5px solid #004ca2;
+    color: #004ca2;
+    font-weight: 500;
+    height: 2.5rem;
+    width: 10rem;
+}
+
+.blogs-section__main-content__addressing{
+    font-size: 2.75rem;
+    font-weight: 500;
+    max-width: 50rem;
+    letter-spacing: -1.14px;
+    margin-bottom: 3rem;
+    color: #004ca2;
+    line-height: 3.5rem;
+}
+
+.blogs-section__main-content__context{
+    display: flex;
+    margin-bottom: 1.5rem;
+    gap: 1rem;
+}
+
+.blogs-section__main-content__context__img{
+    width: 38.125rem;
+    height: 23.275rem;
+    border-radius: 5%;
+}
+
+.blogs-section__main-content__context__details{
+    display: flex;
+    flex-direction: column;
+}
+
+.blogs-section__main-content__context__details__title{
+    margin-top: 0.5rem;
+    font-size: 1.75rem;
+    font-weight: 450;
+    color: #003979;
+    letter-spacing: -1px;
+    max-width: 17rem;
+    line-height: 2rem;
+    margin-bottom: 1rem;
+}
+
+.blogs-section__main-content__context__details__time{
+    font-size: .8rem;
+    font-weight: 400;
+    color: #7c7c7c;
+    letter-spacing: .7px;
+    margin-bottom: 1.5rem;
+}
+
+.blogs-section__main-content__context__details__description{
+    font-size: .9rem;
+    font-weight: 450;
+    max-width: 16rem;
+}
+
+.blogs-section__main-content__list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 1rem;
+}
+
+.blogs-section__main-content__list__img{
+    height: 13rem;
+    width: 18.5rem;
+    border-radius: 5%;
 }
